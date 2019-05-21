@@ -25,5 +25,6 @@ function dec(n){
 }
 
 function makeInt(n){
-  return n.parseInt
+  n == n.parseInt()
+  return n
 }
